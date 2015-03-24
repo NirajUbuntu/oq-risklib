@@ -206,8 +206,7 @@ class OqParam(valid.ParamSet):
             return (self.reference_vs30_type and
                     self.reference_vs30_value and
                     self.reference_depth_to_2pt5km_per_sec and
-                    self.reference_depth_to_1pt0km_per_sec and
-                    self.reference_backarc)
+                    self.reference_depth_to_1pt0km_per_sec)
         else:
             return True
 
